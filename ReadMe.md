@@ -1,7 +1,8 @@
 
 #### Go语言学习 
 
-* time to go: 2018/11/25
+* time to go:
+	- 2018/11/25
 
 * go to learn:
 	- 基础语法以及相关特性
