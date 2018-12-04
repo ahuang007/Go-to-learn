@@ -15,11 +15,11 @@ func main() {
 	var iarr [10]int //数组声明
 	var i, j int
 
-	for i = 0; i < cap(iarr); i++ { // cap(arr) 数组长度
+	for i = 0; i < cap(iarr); i++ { // cap(arr) 数组容量
 		iarr[i] = i + 100 // 数组赋值
 	}
 
-	for j = 0; j < cap(iarr); j++ {
+	for j = 0; j < len(iarr); j++ { // len(arr) 数组长度 数组长度和容量是相等的
 		fmt.Printf("Element[%d] = %d\n", j, iarr[j]) //数组用下标访问
 	}
 
