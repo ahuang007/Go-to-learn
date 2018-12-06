@@ -12,4 +12,20 @@ func main() {
 	d := "xxxx" // 等价于c++中 auto d = "xxxx"
 
 	fmt.Println(a, b, c, d)
+
+	for i := 1; i < 10; i++ {
+		fmt.Printf("%d ", Fibonacci(uint32(i))) // 类型转换 type_name(expression)
+	}
+	fmt.Println()
+}
+
+// 递归调用
+func Fibonacci(n uint32) uint32 {
+	if n <= 0 {
+		return 0
+	} else if n == 1 || n == 2 {
+		return 1
+	} else {
+		return Fibonacci(n-1) + Fibonacci(n-2)
+	}
 }
