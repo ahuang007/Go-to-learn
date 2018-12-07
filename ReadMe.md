@@ -10,4 +10,5 @@
 	- leaf的学习与实践 [leaf]: https://github.com/name5566/leaf
 	
 * Let's go
-	
+	- 编辑器:LiteIDE
+	- 配置:GOPATH
