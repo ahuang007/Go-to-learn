@@ -60,11 +60,15 @@ func main() {
 
 	go Handle(conn)
 
-	fmt.Println(" connect success")
-	var uid = rand.Intn(10000)
-	for i := 1; ; i++ {
-		sender(conn, uid, i)
-		time.Sleep(time.Second * 5)
+	var username string = "ahuang"
+	var msg string
+	for {
+		msg = ""
+		fmt.Scan(&msg)
+		conn.Write([]byte(username + " say: " + msg))
+		if msg == "quit" {
+			break // 程序结束运行
+		}
 	}
 }
 
