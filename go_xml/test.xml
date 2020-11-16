@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Persons>
+    <Person>
+        <Name>zhangsan</Name>
+        <Age>28</Age>
+        <Career>teacher</Career>
+        <Interests>
+            <Interest>chat</Interest>
+            <Interest>chess</Interest>
+        </Interests>
+    </Person>
+    <Person>
+        <Name>lisi</Name>
+        <Age>27</Age>
+        <Career>progamer</Career>
+        <Interests>
+            <Interest>coding</Interest>
+            <Interest>games</Interest>
+        </Interests>
+    </Person>
+</Persons>
